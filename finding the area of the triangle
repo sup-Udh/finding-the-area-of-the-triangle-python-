@@ -1,0 +1,19 @@
+# finding-the-area-of-the-triangle-python-
+
+# Let's start adding the 3 main input for the user to enter the the values 
+
+first_value = float(input('Enter first value : '));
+second_value = float(input('Enter second value:'));
+third_value = float(input('enter the the third value:'));
+
+# now first we need to calculate the semi-permiter to find the area 
+# we need to add all the value and dived by two to find the semi perimeter 
+
+sp=(first_value + second_value + third_value) /2
+
+#now we can calculate the area 
+area = (sp*(sp-a)*(sp-b)*(sp-c)) ** 0.5 
+
+# now the last step we need to print out the vlaue 
+
+print('The area of the triangle is %0.2f' %area) 
