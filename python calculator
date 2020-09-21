@@ -1,0 +1,64 @@
+#The user has to give two numbers
+# first we need to create a user input for the user to enter which opetratio that has to be done
+
+user_input = int(input('Please enter a operation '))
+
+
+# now we will be doing the if commad so that we can find out which number the user has pressed 
+
+if(user_input == 1):
+    # letting the user know what operation the user has selected
+    print('you have selected  addition operation');
+    #asking for the two numbers
+
+    a = int(input('First number'));
+    b = int(input('second number'));
+
+    #doing the addition 
+    sum = (a + b)
+
+    # printing the value
+    print('the solution is ',sum);
+    
+
+# if the user press 2 then subtraction
+
+elif(user_input == 2):
+    print('you have selected subtraction');
+    c = int(input('First number'));
+    d = int(input('second number'));
+    # Doing the subtraction
+    remove =  (c-d)
+
+    # printing then value
+    print('the decrease is :', remove);
+
+
+# if the user press 3 then multiplication
+
+elif(user_input == 3):
+    print('you have selected  multiplication');
+    f = int(input('First number'));
+    g = int(input('second number'));
+    # Doing the multiplication
+    product =  (f * g)
+
+    # printing the value
+    print('the product is :', product);
+
+
+
+# if the users press 4 then divison
+
+elif(user_input == 4):
+    print('you have selected  division');
+    h = int(input('First number'));
+    i = int(input('second number'));
+    # Doing the division
+    q =  (h / i)
+
+    # printing the value
+    print('the product is :', q);
+    
+    
+
